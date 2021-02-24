@@ -1,0 +1,28 @@
+::selection {
+	background-color: #0b62e0;
+	color: white;
+}
+::-moz-selection {
+	background-color: #0b62e0;
+	color: white;
+}
+
+.spell {
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 1px;
+	text-overflow: '';
+	color: #e13300;
+	border-bottom: 2px solid #e13300;
+    outline: none;
+}
+.spell::-ms-expand {
+	display: none;
+}
+.dt-hasil {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 40px;
+}
